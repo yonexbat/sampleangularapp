@@ -1,14 +1,17 @@
-<div>
-  <h1>Angular sample appliation for ad hoc testing environments</h1>
+<div class="main">
+  <div>
+    <h1>Angular sample appliation</h1>
+  </div>
+
+  <a [routerLink]="['/home']">
+    home
+  </a>
+
+  &nbsp;
+
+  <a [routerLink]="['/sample']">
+    sample
+  </a>
+
+  <router-outlet></router-outlet>
 </div>
-
-<a [routerLink]="['/home']">
-  routerlink home
-</a>
-
-
-<a [routerLink]="['/sample']">
-  routerlink sample
-</a>
-
-<router-outlet></router-outlet>
